@@ -1,0 +1,10 @@
+#  ██ ████████ ███████ ███    ███   ██   ██ ███████ ██   ██ ███████ ██████
+#  ██    ██    ██      ████  ████   ██   ██ ██       ██ ██  ██      ██   ██
+#  ██    ██    █████   ██ ████ ██   ███████ █████     ███   █████   ██████
+#  ██    ██    ██      ██  ██  ██   ██   ██ ██       ██ ██  ██      ██   ██
+#  ██    ██    ███████ ██      ██   ██   ██ ███████ ██   ██ ███████ ██   ██
+#  - By Sophed (https://soph.systems)
+
+BlockedWords:
+      - "kys"
+      - "add your own entries! i'm not including the ones i use because i don't particularly want to have racial slurs in a git commit!"

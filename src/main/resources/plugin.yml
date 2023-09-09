@@ -1,0 +1,30 @@
+name: ItemHexer
+version: '${version}'
+main: systems.itemhexer.ItemHexer
+api-version: '1.20'
+prefix: ItemHexer
+authors: [Sophed]
+description: Edit item metadata with modern text formatting.
+website: soph.systems
+commands:
+  hex:
+      description: Main command for ItemHexer.
+      usage: /<command> <subcommand>
+      aliases:
+        - itemhexer
+        - ih
+  itemname:
+    description: Change the name of an item.
+    usage: /<command> <name>
+    permission: hex.name
+    aliases:
+      - rename
+      - renameitem
+      - itemrename
+  addlore:
+    description: Add lore to an item.
+    usage: /<command> <lore>
+    permission: hex.lore
+    aliases:
+      - loreadd
+      - itemlore
