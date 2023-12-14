@@ -14,7 +14,7 @@ import java.util.List;
 import static systems.itemhexer.ItemHexer.*;
 
 public class Hex implements CommandExecutor, TabExecutor {
-    private final String RELOAD_PERMISSION = "hex.reload";
+    private static final String RELOAD_PERMISSION = "hex.reload";
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (!(sender instanceof Player player)) {

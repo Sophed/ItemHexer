@@ -3,5 +3,8 @@ Minecraft server plugin to let you edit item metadata with modern text formattin
 
 ## Commands
 - /hex - General plugin info or reload config if you have `hex.reload` permission.
-- /itemname - Players with permission `hex.name` can rename their items
-- /addlore - Players with permission `hex.lore` can add lore to their items.
+- /rename - Players with permission `hex.name` can rename their items
+- /addline - Players with permission `hex.lore` can add lore to their items.
+- /setline - Players with permission `hex.lore` can set lore to their items.
+- /delline - Players with permission `hex.lore` can delete lore from their items.
+- /broadcast - Players with permission `hex.broadcast` can broadcast messages with hex colors.

@@ -1,14 +1,16 @@
 package systems.itemhexer;
 
-import systems.itemhexer.command.AddLore;
-import systems.itemhexer.command.Hex;
-import systems.itemhexer.command.ItemName;
+import systems.itemhexer.command.*;
 
 @SuppressWarnings("all")
 public class CommandRegister {
-    public CommandRegister(ItemHexer plugin) {
-        plugin.getCommand("hex").setExecutor(new Hex());
-        plugin.getCommand("itemname").setExecutor(new ItemName());
-        plugin.getCommand("addlore").setExecutor(new AddLore());
+    public CommandRegister(ItemHexer p) {
+        p.getCommand("hex").setExecutor(new Hex());
+        p.getCommand("itemname").setExecutor(new ItemName());
+        p.getCommand("addlore").setExecutor(new AddLore());
+        p.getCommand("resetlore").setExecutor(new ResetLore());
+        p.getCommand("setline").setExecutor(new SetLoreLine());
+        p.getCommand("deleteline").setExecutor(new DeleteLoreLine());
+        p.getCommand("broadcast").setExecutor(new Broadcast());
     }
 }

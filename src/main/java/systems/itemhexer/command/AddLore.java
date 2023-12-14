@@ -57,7 +57,7 @@ public class AddLore implements CommandExecutor {
         meta.lore(lore);
         item.setItemMeta(meta);
         player.getInventory().setItemInMainHand(item);
-        player.sendMessage(mm.deserialize(ACCENT + "Added lore: <reset><gray>" + loreStr));
+        player.sendMessage(mm.deserialize(ACCENT + "Added lore: <reset><gray>").append(loreCom));
         return true;
     }
 }

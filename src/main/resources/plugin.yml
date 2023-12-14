@@ -27,4 +27,33 @@ commands:
     permission: hex.lore
     aliases:
       - loreadd
-      - itemlore
+      - addline
+  resetlore:
+    description: Reset the lore of an item.
+    usage: /<command>
+    permission: hex.lore
+    aliases:
+      - lorereset
+  setline:
+    description: Set a line of lore on an item.
+    usage: /<command> <line> <lore>
+    permission: hex.lore
+    aliases:
+      - setloreline
+      - lorelineset
+  deleteline:
+    description: Delete a line of lore on an item.
+    usage: /<command> <line>
+    permission: hex.lore
+    aliases:
+      - removeline
+      - lorelineremove
+      - deleteloreline
+      - lorelinedelete
+      - delline
+  broadcast:
+    description: Broadcast a message to the server.
+    usage: /<command> <message>
+    permission: hex.broadcast
+    aliases:
+      - bc

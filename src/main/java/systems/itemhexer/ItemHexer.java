@@ -18,7 +18,7 @@ import java.util.List;
 @SuppressWarnings("all")
 public final class ItemHexer extends JavaPlugin {
 
-    public static String VERSION = "1.0.0";
+    public static String VERSION = "1.0.1";
     public static MiniMessage mm = MiniMessage.miniMessage();
     public static final String FG = "<#00B5FF>";
     public static final String ACCENT = "<#3064FF>";
